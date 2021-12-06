@@ -58,7 +58,7 @@ def assess(fpth: str, testpth: str) -> bool:
     return same
 
 
-def main():
+def main_():
     fpth, testpth = build_path()
     assess(fpth, testpth)
 
